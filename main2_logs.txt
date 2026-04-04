@@ -1,0 +1,7 @@
+matrix type                mean(ms)  std(ms)    speedup   muls
+uniform (dense)               9.856    1.014      1.000x      9
+row-covered nz=3              3.647    0.525      2.702x      3
+row-covered nz=4              4.504    0.473      2.188x      4
+row-covered nz=5              5.767    0.846      1.709x      5
+row-covered nz=6              7.416    1.731      1.329x      6
+random sparse nz=3            3.140    0.152      3.139x      3
